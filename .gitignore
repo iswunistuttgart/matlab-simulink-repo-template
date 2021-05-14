@@ -1,0 +1,45 @@
+# MATLAB
+## Autosave
+### Windows
+*.asv
+### OSX/Linux
+*.m~
+
+## Generated code
+*.mex*
+./*_sfun.mexw64
+
+## Figures
+*.fig
+
+# Simulink
+## Simulink code compile
+slprj/
+sccprj/
+*.slxc
+
+## Update to new version (keeps old model)
+*.slx.original
+*.slx.r20*a
+*.slx.r20*b
+
+## Autosave model
+*.autosave
+
+# MATLAB Apps
+## App help generated with builddocsearchdb
+helpsearch*/
+
+## Packaged app and toolbox files 
+*.mlappinstall 
+*.mltbx 
+
+# Workspace settings:
+## Octave
+octave-workspace
+
+## VSCode
+.vscode/
+
+# Project specific
+# add your own ignore rules
